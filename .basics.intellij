@@ -1,0 +1,23 @@
+{
+  "vendor" : "Oracle",
+  "product" : "OpenJDK",
+  "default" : true,
+  "jdk_version_major" : 17,
+  "jdk_version" : "17",
+  "suggested_sdk_name" : "openjdk-17",
+  "shared_index_aliases" : [ "openjdk-17", "17" ],
+  "packages" : [ {
+    "os" : "linux",
+    "arch" : "x86_64",
+    "url" : "https://download.java.net/java/GA/jdk17/0d483333a00540d886896bac774ff48b/35/GPL/openjdk-17_linux-x64_bin.tar.gz",
+    "package_type" : "targz",
+    "unpack_prefix_filter" : "jdk-17",
+    "package_root_prefix" : "jdk-17",
+    "package_to_java_home_prefix" : "",
+    "archive_file_name" : "openjdk-17_linux-x64_bin.tar.gz",
+    "install_folder_name" : "openjdk-17",
+    "archive_size" : 186661523,
+    "unpacked_size" : 320666884,
+    "sha256" : "aef49cc7aa606de2044302e757fa94c8e144818e93487081c4fd319ca858134b"
+  } ]
+}
