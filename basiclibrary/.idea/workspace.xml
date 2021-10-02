@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e32219e-8f74-4468-a85a-b961963dd060" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/testTally.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/testWeatherAnalzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/main/java/linter/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/main/resources/gates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/java/linter/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/testTally.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/testWeatherAnalzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/lib/src/main/java/linter/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/lib/src/main/java/linter/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/lib/src/test/java/linter/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/lib/src/test/java/linter/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/lib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/lib/src/main/java/linter/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/lib/src/main/resources/gates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/lib/src/test/java/linter/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/lib/src/test/resources/gates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +86,25 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.Library">
-    <configuration name="Library" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.Library (1)">
+    <configuration name="Library (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basiclibrary.Library" />
       <module name="basiclibrary.lib.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basiclibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Library" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11 (WSL)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.Library" />
+      <module name="basiclibrary.lib.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,6 +118,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11 (WSL)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.Library" />
+      <module name="basiclibrary.lib.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,13 +150,39 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="testWeatherAnalyze.testForTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;basiclibrary.testWeatherAnalyze.testForTwo&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Library" />
+      <item itemvalue="Application.test" />
       <item itemvalue="Gradle.Tests in 'basiclibrary'" />
+      <item itemvalue="Gradle.testWeatherAnalyze.testForTwo" />
+      <item itemvalue="Application.Library (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Library" />
+        <item itemvalue="Application.Library (1)" />
+        <item itemvalue="Gradle.testWeatherAnalyze.testForTwo" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Gradle.Tests in 'basiclibrary'" />
       </list>
     </recent_temporary>
