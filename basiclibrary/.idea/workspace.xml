@@ -5,86 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e32219e-8f74-4468-a85a-b961963dd060" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bin/main/basiclibrary/Library.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bin/test/basiclibrary/LibraryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/.idea/libraries/groovy_4_0_0_beta_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/basicss.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-ant-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-ant-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-astbuilder-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-astbuilder-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-cli-commons-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-cli-commons-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-cli-picocli-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-cli-picocli-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-console-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-console-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-contracts-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-contracts-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-datetime-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-datetime-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-dateutil-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-dateutil-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-docgenerator-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-docgenerator-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-ginq-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-ginq-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-groovydoc-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-groovydoc-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-groovysh-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-groovysh-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-jmx-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-jmx-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-json-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-json-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-jsr223-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-jsr223-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-macro-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-macro-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-macro-library-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-macro-library-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-nio-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-nio-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-servlet-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-servlet-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-sql-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-sql-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-swing-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-swing-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-templates-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-templates-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-test-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-test-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-test-junit5-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-test-junit5-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-testng-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-testng-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-toml-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-toml-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-typecheckers-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-typecheckers-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-xml-4.0.0-beta-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/lib/groovy-xml-4.0.0-beta-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basicss/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +143,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
