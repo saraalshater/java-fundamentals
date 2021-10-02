@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e32219e-8f74-4468-a85a-b961963dd060" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../linter/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/testTally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/testWeatherAnalzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/lib/src/main/java/linter/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/lib/src/main/java/linter/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/lib/src/test/java/linter/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/lib/src/test/java/linter/LibraryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,8 @@
   </component>
   <component name="RunManager" selected="Application.Library">
     <configuration name="Library" type="Application" factoryName="Application">
-      <module name="basiclibrary" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.Library" />
+      <module name="basiclibrary.lib.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
