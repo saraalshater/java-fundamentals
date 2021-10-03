@@ -6,6 +6,7 @@ package basiclibrary;
 import java.util.*;
 
 public class Library {
+
     public boolean someLibraryMethod() {
         return true;
     }

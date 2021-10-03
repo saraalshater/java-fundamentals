@@ -3,8 +3,8 @@
  */
 package basiclibrary;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -21,6 +21,10 @@ class LibraryTest {
         Library classUnderTest = new Library();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
+
+    private void assertTrue(String s, boolean someLibraryMethod) {
+    }
+
     Library test;
     @BeforeEach
 

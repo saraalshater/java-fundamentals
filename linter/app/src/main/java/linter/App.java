@@ -9,6 +9,7 @@ import java.nio.file.Path;
 import java.util.List;
 
 public class App {
+
     public boolean someLibraryMethod() {
         return true;
     }
