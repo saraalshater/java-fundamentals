@@ -3,57 +3,24 @@
  */
 package basiclibrary;
 
-
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
-    @Test
-    public void someLibraryMethodReturnsTrue() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
-    }
+    @Test void someLibraryMethodReturnsTrue() {
+        Library testing= new Library();
 
-    private void assertTrue(String s, boolean someLibraryMethod) {
-    }
-
-    Library test;
-    @BeforeEach
-
-    void setup() {
-        test=new Library();
-    }
-
-    @Test
-    @DisplayName("Simple average should work")
-    void testAverage(){
-        int [] arr=new int []{2,5,5,8,10};
-        assertEquals(6, test.average(arr),"Regular average should work");
-    }
-    @Test
-    @DisplayName("tally function should out the most votes")
-    void testTally(){
-        List<String> votes = new ArrayList<>();
-        votes.add("snape");
-        votes.add("snape");
-        votes.add("voldemort");
-        votes.add("snape");
-        votes.add("voldemort");
-        votes.add("snape");
-        votes.add("testing");
-        votes.add("snape");
-        votes.add("testing");
-
-        assertEquals("snape", test.tally(votes),"tally votes should work");
+        assertEquals(3,testing.roll(3).length);
+        assertTrue(testing.checkDuplicates(new int[]{2,2,3,4}));
+        assertEquals(3,testing.simpleAvg(new int[]{2,4}));
+        assertArrayEquals(new int[]{2,4},testing.minAvgOfArrOfArrays(new int[][]{{4,4}, {2, 4}}));
+        assertSame("\nHigh: 72\n" +
+                "Low : 51\n"+"Never saw temperature: 63\n" +
+                "Never saw temperature: 67\n" +
+                "Never saw temperature: 68\n" +
+                "Never saw temperature: 69\n",testing.notIncludedValues(new int[][]{{66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}}));
     }
 }
-
-
