@@ -21,14 +21,25 @@ private double numberOfStars;
         }
     }
 
+    public double getStars() {
+        return this.numberOfStars;
+    }
 
 
+    public String getAuthor() {
+        return this.author;
+    }
 
+
+    public String getBody() {
+        return this.body;
+    }
 
 
 
     public String toString(){
-        return body + " " + numberOfStars + " " + author;
+
+        return "Review---> name: "+ author + ", comment: " + body + ", Rate : " + numberOfStars ;
     }
 
 

@@ -1,2 +1,4 @@
-package linter;public class Main {
+package linter;
+
+public class Main {
 }

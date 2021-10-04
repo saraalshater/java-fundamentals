@@ -4,15 +4,35 @@ import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Java");
+//        System.out.println("Hello Java");
 
 
-        Restaurant burgerMaker = new Restaurant("Burger maker", 40, 7);
-        Review demo = new Review("great","mohammad",2);
+        Restaurant rest = new Restaurant("Burger maker", 30, 5);
 
-        System.out.println(burgerMaker.toString());
-        System.out.println(demo.toString());
 
+
+        Review review1 = new Review("great","mohammad",4);
+        rest.addReview(review1);
+
+
+        Review review2 = new Review("ok","sara",4);
+        rest.addReview(review2);
+
+
+        Shop shop = new Shop("adidas", "sport", 20);
+
+
+
+        Theater theater = new Theater("Uni theater");
+        
+//        System.out.println(rest.toString());
+//        System.out.println(review1.toString());
+//        System.out.println(review2.toString());
+        System.out.println(shop);
+        System.out.println(shop.getReviews());
+        System.out.println(shop);
+        System.out.println(rest);
+        System.out.println(rest.getReviews());
 
 
 

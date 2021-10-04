@@ -3,50 +3,40 @@
  */
 package linter;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class App {
 
-    public boolean someLibraryMethod() {
-        return true;
-    }
 
-    public static int linter(Path path) {
-        int errorLine = 0;
-        int errors = 0;
-        String errorMsg = "";
 
+
+
+
+    public static void main(String[] args) {
         try {
-            List<String> lineReader = Files.readAllLines(path);
-            for (String line : lineReader) {
-                errorLine++;
 
-                if (!(line.isEmpty())) {
-                    if (line.contains("if") ||
-                            line.contains("else") ||
-                            line.contains(";") ||
-                            line.contains("}") ||
-                            line.contains("{")) {
+            File myObj = new File("./app/src/main/resources/gates.js");
+            Scanner myReader = new Scanner(myObj);
+            int counter = 1;
+            while (myReader.hasNextLine()) {
+                String line = myReader.nextLine();
+                if (!line.endsWith(";") && !line.endsWith("}") && !line.endsWith("{") && !line.contains("else") && !line.contains("if") && !line.equals("")){
 
-                    } else {
-                        errors++;
-                        System.out.println(" Line " + errorLine + " : Missing semicolon");
-                        errorMsg += " Line " + errorLine + " : Missing semicolon.\n";
-                        System.out.println("error " + errors +"\n");
+                    String printLine = "Line " + counter + " : Missing semicolon.";
 
-                    }
+
+                    System.out.println(printLine);
                 }
+                counter++;
             }
-
-
-
-        } catch (IOException exception) {
-            System.out.println("Error happened when Reading the file");
+            myReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
         }
-        return errors;
-
     }
 }
