@@ -1,10 +1,5 @@
-function noError(number){
-let x = 5;
-if(number == x){
-console.log("great")
-console.log("play again")
-}else{
-console.log("Try again")
-console.log("chose another number")
-}
+function add2(a,b) {
+  twos = add1(a[0], b[0])
+  ones = add1(a[1], b[1]);
+
 }

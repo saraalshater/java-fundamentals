@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e32219e-8f74-4468-a85a-b961963dd060" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../inheritance/lib/src/main/java/inheritance/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/resources/fewErrors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/resources/noErrors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/resources/oneError.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inheritance/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inheritance/lib/src/main/java/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/lib/src/main/java/inheritance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inheritance/lib/src/main/java/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/lib/src/main/java/inheritance/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inheritance/lib/src/main/java/inheritance/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/lib/src/main/java/inheritance/Review.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/app/out/production/classes/linter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/out/production/classes/linter/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/app/out/test/classes/linter/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/out/test/classes/linter/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/app/src/main/java/linter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/src/main/java/linter/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/app/src/main/java/linter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/src/main/java/linter/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linter/app/src/test/java/linter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/src/test/java/linter/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/src/test/resources/many-errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/src/test/resources/many-errors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/src/test/resources/no-errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/src/test/resources/one-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/src/test/resources/three-errors.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.LibraryTest.someLibraryMethodReturnsTrue">
     <configuration name="Library (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basiclibrary.Library" />
       <module name="basiclibrary.lib.main" />
@@ -155,12 +157,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testTally" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.someLibraryMethodReturnsTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;basiclibrary.LibraryTest.testTally&quot;" />
+        <option name="scriptParameters" value="--tests &quot;basiclibrary.LibraryTest.someLibraryMethodReturnsTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -176,17 +178,19 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'basiclibrary'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.testTally" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--tests &quot;basiclibrary.LibraryTest.testTally&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
-          <list />
+          <list>
+            <option value=":lib:test" />
+          </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
@@ -222,18 +226,18 @@
       <item itemvalue="Application.test" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Library (1)" />
-      <item itemvalue="Gradle.Tests in 'basiclibrary'" />
       <item itemvalue="Gradle.testWeatherAnalyze.testForTwo" />
       <item itemvalue="Gradle.LibraryTest" />
       <item itemvalue="Gradle.LibraryTest.testTally" />
+      <item itemvalue="Gradle.LibraryTest.someLibraryMethodReturnsTrue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryTest.someLibraryMethodReturnsTrue" />
         <item itemvalue="Gradle.LibraryTest" />
         <item itemvalue="Gradle.LibraryTest.testTally" />
         <item itemvalue="Application.Library (1)" />
         <item itemvalue="Gradle.testWeatherAnalyze.testForTwo" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>

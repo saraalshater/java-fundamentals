@@ -4,39 +4,40 @@
 package linter;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class App {
 
-
-
-
-
-
     public static void main(String[] args) {
+
+        Path path = Paths.get("./app/src/main/resources/gates.js");
+        System.out.println(linter(path.toString()));
+    }
+
+    public static String linter(String filePath) {
+
+        String printLine = "";
         try {
 
-            File myObj = new File("./app/src/main/resources/gates.js");
-            Scanner myReader = new Scanner(myObj);
+            File myPath = new File(filePath);
+            Scanner lineReader = new Scanner(myPath);
             int counter = 1;
-            while (myReader.hasNextLine()) {
-                String line = myReader.nextLine();
-                if (!line.endsWith(";") && !line.endsWith("}") && !line.endsWith("{") && !line.contains("else") && !line.contains("if") && !line.equals("")){
+            while (lineReader.hasNextLine()) {
+                String line = lineReader.nextLine();
+                if (!line.endsWith(";") && !line.endsWith("}") && !line.endsWith("{") && !line.contains("else") && !line.contains("if") && !line.isEmpty() || line.contains("return") && !line.endsWith(";")) {
 
-                    String printLine = "Line " + counter + " : Missing semicolon.";
+                    printLine = printLine + "Line " + counter + " : Missing semicolon.\n";
 
-
-                    System.out.println(printLine);
                 }
                 counter++;
             }
-            myReader.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
+            lineReader.close();
+        } catch (IOException ioException) {
+            System.out.println(ioException.getMessage());
         }
+        return printLine;
     }
 }
